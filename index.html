@@ -8,42 +8,21 @@
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-        <div>
-            <div
-                class="up"
-                data-line="overline"
-                data-style="wavy"
-                data-color="red"
+        <ol>
+            <li
+                class="one"
+                data-x="3px"
+                data-y="3px"
+                data-blur="2px"
+                data-color="hsla(0, 0%, 0%, .5)"
             >
-                <span>Overline</span>
-            </div>
-            <div
-                class="through"
-                data-line="line-through"
-                data-style="dashed"
-                data-color="green"
-            >
-                <span>Line-through</span>
-            </div>
-            <div
-                class="down"
-                data-line="underline"
-                data-style="solid"
-                data-color="blue"
-            >
-                <span>Underline</span>
-            </div>
-            <div class="no" data-line="none">
-                <span>None</span>
-            </div>
-            <div
-                class="combi"
-                data-line="underline overline"
-                data-style="double"
-                data-color="grey"
-            >
-                <span>Combination</span>
-            </div>
-        </div>
+                CSS-свойство text-shadow добавляет тени к тексту и всем
+                элементам text-decoration.
+            </li>
+            <li>
+                К одному тексту можно применить несколько теней:
+                <span class="rings" data-colors="blue black red green">O</span>
+            </li>
+        </ol>
     </body>
 </html>
