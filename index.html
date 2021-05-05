@@ -8,20 +8,19 @@
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-        <ol>
-            <li
-                class="one"
-                data-x="3px"
-                data-y="3px"
-                data-blur="2px"
-                data-color="hsla(0, 0%, 0%, .5)"
-            >
-                CSS-свойство text-shadow добавляет тени к тексту и всем
-                элементам text-decoration.
+        <ol class="items">
+            <li class="item item-less" data-wordspacing="-.25rem">
+                1rem соответсвует размеру шрифта, заданному в body, а .25rem
+                равна 1/4 размера шрифта и ширине пробела между словами
             </li>
-            <li>
-                К одному тексту можно применить несколько теней:
-                <span class="rings" data-colors="blue black red green">O</span>
+            <li class="item">
+                <p>CSS-свойство word-spacing наследуется</p>
+            </li>
+            <li class="item item-normal" data-wordspacing="normal">
+                <p>
+                    CSS-свойство word-spacing устанавливает длину пробела между
+                    словами и между тегами.
+                </p>
             </li>
         </ol>
     </body>
