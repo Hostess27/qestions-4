@@ -36,10 +36,11 @@
 .card {
     display: inline-block;
     background-color: blueviolet;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .letter::first-letter {
-    vertical-align: top;
+    vertical-align: middle;
+
     font-size: 72px;
 }
